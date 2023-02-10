@@ -11,7 +11,7 @@ header {
     position: absolute;
     margin: 32px 0px;
     padding: 0px 120px;
-    width: 100vw;
+    width: 100%;
 
     z-index: 1;
 }
@@ -19,6 +19,10 @@ header {
 header div {
     display: flex;
     align-items: center;
+}
+
+.logo {
+    width: 162px;
 }
 
 .icon-header {
@@ -155,7 +159,7 @@ p {
     align-items: center;
     flex-direction: column;
 
-    width: 100vw;
+    width: 100%;
     padding: 100px 0px;
 }
 
@@ -219,7 +223,8 @@ p {
     padding: 100px 205px;
 
     background: #FAFAFA;
-    border: 1px solid rgba(81, 77, 89, 0.15);
+    border-top: 1px solid rgba(81, 77, 89, 0.15);
+    border-bottom: 1px solid rgba(81, 77, 89, 0.15);
 }
 
 .section1-3 {
@@ -239,11 +244,11 @@ p {
 
 .feedbacks {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 
     padding: 48px 0px;
-    width: 100vw;
+    width: 100%;
 }
 
 .feedback {
@@ -285,6 +290,8 @@ nav {
 
 .floating-profiles {
     position: relative;
+    width: 330px;
+    height: 400px;
 
 }
 
@@ -298,6 +305,102 @@ nav {
 }
 
 #profile2 {
-    left: 0px;
+    left: 10px;
+    top: 100px;
+}
+
+#profile3 {
+    left: 238px;
     top: 150px;
+}
+
+#profile4 {
+    left: 70px;
+    top: 280px;
+}
+
+#profile5 {
+    right: 30px;
+    top: 0px;
+}
+
+#profile6 {
+    right: 145px;
+    top: 200px;
+}
+
+#profile7 {
+    right: 33px;
+    bottom: 0px;
+}
+
+footer {
+    height: 384px;
+}
+
+footer h4 {
+    margin-bottom: 25px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+
+    color: #FFFFFF;
+}
+
+li {
+    margin-bottom: 15px;
+
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #FAFAFA;
+    list-style: none;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 30px 120px;
+    height: 300px;
+    background: #333333;
+}
+
+.logos {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 75px;
+}
+
+.logos img {
+    margin-bottom: 5px;
+}
+
+.icons-social {
+    display: flex;
+    gap: 25px;
+}
+
+.terms {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 30px 120px;
+}
+
+.terms h5 {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #625F67;
+}
+
+.terms-right {
+    display: flex;
+    gap: 50px;
 }
